@@ -1,4 +1,4 @@
-#Edit distnace algorith
+#Edit distnace algorithm
 import string
 
 
