@@ -18,6 +18,7 @@ def decryptPdf(f):
 				print(str(ps) + '7257')
 				return {'pdf': f, 'r': ran, 's': str(ps) + '7257'}
 
+			
 f = PdfFileReader(open("XXXXXXXXX.pdf", "rb"))
 o = f.decrypt('PRAT0712')
 print(o)
